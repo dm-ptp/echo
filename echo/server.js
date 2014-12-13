@@ -21,7 +21,7 @@ function start(route) {
 			console.log("Kicking off api handler");
 			if(query){
 				console.log("Got a legit query");
-				response.write(JSON.stringify(query, undefined, 2));
+				response.write(JSON.stringify(query, null, 2));
 			} else { response.write("No query parameters\n") };
 		} else {
 			response.write("Error getting response from router.\n");
