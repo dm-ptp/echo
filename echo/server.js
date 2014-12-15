@@ -16,6 +16,9 @@ function start(route) {
 			response.writeHead(200, {"Content-Type": "text/plain"});
 			response.write("No route found for " + pathname + "\n");
 		} else if(handler == 'favicon'){
+		} else if(handler == 'tmp'){
+			response.writeHead(200, {"Content-Type": "text/plain"});
+			response.write("sall good\n");
 		} else if(handler == 'api'){
 			response.writeHead(200, {"Content-Type": "text/json"});
 			console.log("Kicking off api handler");
