@@ -1,7 +1,7 @@
-echo_node
-=========
+echo
+====
 
-echo_node is a node.js service to simply echo query params back as JSON. It's being used to simulate an API endpoint for trial-testing API load testing services and solutions, as well as pre-integrating them into Jenkins, etc.
+echo is a node.js service to simply echo query params back as JSON. It's being used to simulate an API endpoint for trial-testing API load testing services and solutions, as well as pre-integrating them into Jenkins, etc.
 
 Use:
 ```
